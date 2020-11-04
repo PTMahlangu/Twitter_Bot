@@ -1,0 +1,233 @@
+1604512017500	geckodriver	INFO	Listening on 127.0.0.1:59193
+1604512017506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVZWjVW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604512032382	Marionette	INFO	Listening on port 35671
+1604512032519	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://twitter.com"
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:12.195: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-WARNING **: 19:56:12.195: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f13dfe81b30' of type 'MaiAtkType21'
+
+(firefox:75510): GLib-GObject-WARNING **: 19:56:12.195: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f13dfe817d0' of type 'MaiAtkType21'
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:12.206: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:12.206: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-WARNING **: 19:56:12.262: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f13c9449590' of type 'MaiAtkType139'
+
+(firefox:75510): GLib-GObject-WARNING **: 19:56:12.262: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f13c94495f0' of type 'MaiAtkType139'
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:12.296: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:12.297: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:12.397: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:17.187: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:22.028: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:23.939: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-WARNING **: 19:56:25.571: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f13c3728e90' of type 'MaiAtkType139'
+
+(firefox:75510): GLib-GObject-CRITICAL **: 19:56:25.766: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:75510): GLib-GObject-WARNING **: 19:56:26.700: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f13c940edd0' of type 'MaiAtkType139'
+
+(firefox:75510): GLib-GObject-WARNING **: 19:56:26.701: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f13c940f410' of type 'MaiAtkType139'
+console.warn: "Error while detaching the worker target:" (new Error("Connection closed, pending request to server0.conn2.workerTarget10, type detach failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:274:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ndetach@resource://devtools/client/fronts/targets/worker.js:107:30\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:684:22\ndestroy@resource://devtools/client/fronts/targets/target-mixin.js:629:12\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonClosed@resource://devtools/client/devtools-client.js:606:10\nclose@resource://devtools/shared/transport/local-transport.js:169:20\nclose@resource://devtools/shared/transport/local-transport.js:165:13\nclose@resource://devtools/shared/transport/local-transport.js:165:13\ncleanup@resource://devtools/client/devtools-client.js:123:27\nclose/promise<@resource://devtools/client/devtools-client.js:139:7\nclose@resource://devtools/client/devtools-client.js:116:21\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:669:30\n", "resource://devtools/shared/protocol/Front.js", 98))
+console.warn: "Error while detaching the worker target:" (new Error("Connection closed, pending request to server0.conn2.workerTarget11, type detach failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:274:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ndetach@resource://devtools/client/fronts/targets/worker.js:107:30\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:684:22\ndestroy@resource://devtools/client/fronts/targets/target-mixin.js:629:12\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonClosed@resource://devtools/client/devtools-client.js:606:10\nclose@resource://devtools/shared/transport/local-transport.js:169:20\nclose@resource://devtools/shared/transport/local-transport.js:165:13\nclose@resource://devtools/shared/transport/local-transport.js:165:13\ncleanup@resource://devtools/client/devtools-client.js:123:27\nclose/promise<@resource://devtools/client/devtools-client.js:139:7\nclose@resource://devtools/client/devtools-client.js:116:21\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:669:30\n", "resource://devtools/shared/protocol/Front.js", 98))
+console.warn: "Error while detaching the worker target:" (new Error("Connection closed, pending request to server0.conn2.workerTarget12, type detach failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:274:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ndetach@resource://devtools/client/fronts/targets/worker.js:107:30\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:684:22\ndestroy@resource://devtools/client/fronts/targets/target-mixin.js:629:12\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonClosed@resource://devtools/client/devtools-client.js:606:10\nclose@resource://devtools/shared/transport/local-transport.js:169:20\nclose@resource://devtools/shared/transport/local-transport.js:165:13\nclose@resource://devtools/shared/transport/local-transport.js:165:13\ncleanup@resource://devtools/client/devtools-client.js:123:27\nclose/promise<@resource://devtools/client/devtools-client.js:139:7\nclose@resource://devtools/client/devtools-client.js:116:21\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:669:30\n", "resource://devtools/shared/protocol/Front.js", 98))
+console.warn: "Error while detaching the worker target:" (new Error("Connection closed, pending request to server0.conn2.workerTarget13, type detach failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:274:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ndetach@resource://devtools/client/fronts/targets/worker.js:107:30\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:684:22\ndestroy@resource://devtools/client/fronts/targets/target-mixin.js:629:12\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonClosed@resource://devtools/client/devtools-client.js:606:10\nclose@resource://devtools/shared/transport/local-transport.js:169:20\nclose@resource://devtools/shared/transport/local-transport.js:165:13\nclose@resource://devtools/shared/transport/local-transport.js:165:13\ncleanup@resource://devtools/client/devtools-client.js:123:27\nclose/promise<@resource://devtools/client/devtools-client.js:139:7\nclose@resource://devtools/client/devtools-client.js:116:21\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:669:30\n", "resource://devtools/shared/protocol/Front.js", 98))
+console.warn: "Error while detaching the worker target:" (new Error("Connection closed, pending request to server0.conn2.workerTarget75, type detach failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:274:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ndetach@resource://devtools/client/fronts/targets/worker.js:107:30\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:684:22\ndestroy@resource://devtools/client/fronts/targets/target-mixin.js:629:12\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonClosed@resource://devtools/client/devtools-client.js:606:10\nclose@resource://devtools/shared/transport/local-transport.js:169:20\nclose@resource://devtools/shared/transport/local-transport.js:165:13\nclose@resource://devtools/shared/transport/local-transport.js:165:13\ncleanup@resource://devtools/client/devtools-client.js:123:27\nclose/promise<@resource://devtools/client/devtools-client.js:139:7\nclose@resource://devtools/client/devtools-client.js:116:21\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:669:30\n", "resource://devtools/shared/protocol/Front.js", 98))
+console.warn: "Error while detaching the worker target:" (new Error("Connection closed, pending request to server0.conn2.workerTarget76, type detach failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:274:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ndetach@resource://devtools/client/fronts/targets/worker.js:107:30\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:684:22\ndestroy@resource://devtools/client/fronts/targets/target-mixin.js:629:12\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonClosed@resource://devtools/client/devtools-client.js:606:10\nclose@resource://devtools/shared/transport/local-transport.js:169:20\nclose@resource://devtools/shared/transport/local-transport.js:165:13\nclose@resource://devtools/shared/transport/local-transport.js:165:13\ncleanup@resource://devtools/client/devtools-client.js:123:27\nclose/promise<@resource://devtools/client/devtools-client.js:139:7\nclose@resource://devtools/client/devtools-client.js:116:21\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:669:30\n", "resource://devtools/shared/protocol/Front.js", 98))
+1604513193735	geckodriver	INFO	Listening on 127.0.0.1:50647
+1604513193740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaiEQnH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604513197856	Marionette	INFO	Listening on port 40145
+1604513197889	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+1604513297760	Marionette	INFO	Stopped listening on port 35671
+1604513370860	geckodriver	INFO	Listening on 127.0.0.1:53605
+1604513370866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile051kGs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604513375177	Marionette	INFO	Listening on port 46101
+1604513375228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604513579217	Marionette	INFO	Stopped listening on port 46101
+1604513649571	geckodriver	INFO	Listening on 127.0.0.1:41471
+1604513649577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFE6ICO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604513654062	Marionette	INFO	Listening on port 36235
+1604513654122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604513659318	Marionette	INFO	Stopped listening on port 40145
+1604513663625	Marionette	INFO	Stopped listening on port 36235
+1604513686177	geckodriver	INFO	Listening on 127.0.0.1:34569
+1604513686183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV3jznl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604513690686	Marionette	INFO	Listening on port 39807
+1604513690726	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1604513946157	geckodriver	INFO	Listening on 127.0.0.1:37835
+1604513946163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet7sCjP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604513950282	Marionette	INFO	Listening on port 37891
+1604513950403	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1604514071582	Marionette	INFO	Stopped listening on port 37891
+1604514073214	Marionette	INFO	Stopped listening on port 39807
+1604514080240	geckodriver	INFO	Listening on 127.0.0.1:60707
+1604514080247	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWauRjz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604514084978	Marionette	INFO	Listening on port 34149
+1604514085099	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1604514090078	Marionette	INFO	Stopped listening on port 34149
+1604514101982	geckodriver	INFO	Listening on 127.0.0.1:44341
+1604514101989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh2gfgv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604514106174	Marionette	INFO	Listening on port 43239
+1604514106239	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1604514172921	Marionette	ERROR	[35] No reply from Marionette:Register
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 166 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.EmojiPicker.2d6cfb55.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+JavaScript error: https://twitter.com/, line 101: ChunkLoadError: Loading chunk 172 failed.
+(error: https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.218ad905.js)
+1604514296479	Marionette	INFO	Stopped listening on port 43239
+1604514298547	geckodriver	INFO	Listening on 127.0.0.1:35257
+1604514298553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYxwi9A"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604514303543	Marionette	INFO	Listening on port 45315
+1604514303596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604514553063	Marionette	INFO	Stopped listening on port 45315
+1604514952474	geckodriver	INFO	Listening on 127.0.0.1:38441
+1604514952481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex65X8G"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604514956204	Marionette	INFO	Listening on port 42273
+1604514956330	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

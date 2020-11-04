@@ -1,33 +1,38 @@
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import keys
+from selenium.webdriver.common.keys import Keys
 import time
 
 class TwitterBot:
     def __init__(self,username,passward):
         self.username = username
         self.passward = passward
-        # Instant of a bot, to open a page
-        self.bot      = webdriver.Firefox() 
+        self.bot = webdriver.Firefox() 
 
     def login(self):
         bot = self.bot
         bot.get('https://twitter.com/')
         # wait for the page to load
-        time.sleep(3)
-        email = bot.find_element_by_class_name("email-input")
-        password =bot.find_element_by__name('session[password]')
+        time.sleep(1)
+        email = bot.find_element_by_name('session[username_or_email]')
+        password =bot.find_element_by_name('session[password]')
         email.clear()
         password.clear()
         email.send_keys(self.username)
         password.send_keys(self.passward)
-        password.send_keys(keys.RETURN)
-        time.sleep(3)
+        password.send_keys(Keys.RETURN)
+        time.sleep(1)
 
     def like_tweet(self,hashtag):
         bot = self.bot
+        bot.get('https://twitter.com/search?q='+hashtag+'&src=typed_query')
+        time.sleep(1)
+        for i in range(1,5):
+            bot.execute_script('window.scrollTo(0.body.scrollHeight)')
+            time.sleep(1)
 
-# test 
-my = TwitterBot("mahlangupt@hotmail.com",'password')
-my.login()
-# https://www.youtube.com/watch?v=7ovFudqFB0Q
+
+mybot = TwitterBot("username",'password')
+mybot.login()
+mybot.like_tweet("amakhosi")
+
