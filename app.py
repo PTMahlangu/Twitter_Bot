@@ -21,6 +21,11 @@ class TwitterBot:
         password.clear()
         email.send_keys(self.username)
         password.send_keys(self.passward)
+        password.send_keys(keys.RETURN)
+        time.sleep(3)
+
+    def like_tweet(self,hashtag):
+        bot = self.bot
 
 # test 
 my = TwitterBot("mahlangupt@hotmail.com",'password')
